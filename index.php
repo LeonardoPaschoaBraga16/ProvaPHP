@@ -26,7 +26,6 @@
             const cep = document.getElementById('cep').value;
             const resultado = document.getElementById('resultado');
 
-            // Limpa resultado anterior
             resultado.innerHTML = 'Carregando...';
 
             fetch(`api.php?cep=${cep}`)
