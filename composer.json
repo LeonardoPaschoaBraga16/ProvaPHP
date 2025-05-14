@@ -1,0 +1,16 @@
+{
+    "name": "projeto/api",
+    "description": "Prova de PHP",
+    "autoload": {
+        "psr-4": {
+            "Projeto\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Paschoa",
+            "email": "78983450+LeonardoPaschoaBraga16@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
